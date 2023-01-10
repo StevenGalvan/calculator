@@ -18,10 +18,13 @@ function divide(number1,number2) {
 const number1 = parseInt(prompt("Enter a number:"));
 const number2 = parseInt(prompt("Enter another number:"));
 
-window.alert("The result is " + add(number1,number2)+ ".");
-window.alert("The result is " + subtract(number2,number1)+ ".");
-window.alert("The result is " + multiply(number2,number1)+ ".");
-window.alert("The result is " + divide(number2,number1)+ ".");
+
+//window.alert("The result is " + add(number1,number2)+ ".");
+//window.alert("The result is " + subtract(number2,number1)+ ".");
+//window.alert("The result is " + multiply(number2,number1)+ ".");
+//window.alert("The result is " + divide(number2,number1)+ ".");
+
+window.alert(("The results of your addition problem is " + add(number1,number2)+ ".") + ("The result of your subtraction problem is " + subtract(number2,number1)+ ".") + ("The result of your multiplication problem is " + multiply(number2,number1)+ ".") + ("The result of your division problem is " + divide(number2,number1)+ "."));
 
 saySomething("Welcome to the Calculator");
 
